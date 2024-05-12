@@ -1,0 +1,29 @@
+{
+  "name": "belajar-nodejs-npm",
+  "version": "1.0.0",
+  "description": "belajar dasar nodejs dengan npm",
+  "exports": {
+    ".": "./index.js",
+    "./write": "./write.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.21"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "prestart": "echo 'Sebelum aplikasi berjalan'",
+    "start": "node index.js",
+    "poststart": "echo 'Setelah aplikasi berjalan'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "nodejs"
+  ],
+  "type": "module",
+  "author": "Rohmat Arief Budiarto [RAB]",
+  "license": "ISC",
+  "devDependencies": {
+    "moment": "^2.30.1"
+  }
+}

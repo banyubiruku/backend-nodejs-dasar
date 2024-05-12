@@ -11,8 +11,8 @@ const server = http.createServer((request, response) => {
       response.end();
     });
   } else {
-    if (request.url === "/arief") {
-      response.write("Assallamualaiku arief");
+    if (request.url === "/rosy") {
+      response.write("Assallamualaiku rosy");
     } else {
       response.write("Hello HTTP Server");
     }
